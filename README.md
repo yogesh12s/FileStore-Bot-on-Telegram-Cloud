@@ -1,17 +1,18 @@
 # FileStore-Bot-on-Telegram-Cloud
 # 📁 Telegram Permanent File Store Bot
 
-This Telegram bot lets users upload multiple files and receive a permanent group download link. Files are stored in a private channel, and links generated via `/done` remain active for future use.
+This Telegram bot lets users upload multiple files and receive a **permanent batch download link**. Files are stored in a private channel and grouped under a single shareable link.
 
 ---
 
 ## 🚀 Features
 
-- Upload multiple files (photos, documents, videos, etc.)
-- Group them together
-- Receive a **permanent download link**
-- Files are stored securely in a private channel
-- Simple and fast setup
+- ✅ Upload **multiple files** in a batch (photo, document, video, etc.)
+- 🔗 Receive a **single permanent download link** for the whole group
+- 🔒 Files stored securely in a **private Telegram channel**
+- 📤 All Telegram-supported media types supported (photo, video, audio, document)
+- 🧠 Grouped files are saved with a unique ID in `file_groups.json`
+- ♻️ Can retrieve the same group anytime using the generated link
 
 ---
 
@@ -19,34 +20,28 @@ This Telegram bot lets users upload multiple files and receive a permanent group
 
 ### 1. 🔐 Get your Bot Token
 
-- Go to [@BotFather](https://t.me/BotFather) on Telegram.
-- Send `/start`, then `/newbot`
-- Follow the prompts to:
-  - Set a name (e.g., **Nooba FileStore Bot**)
-  - Set a username (e.g., **`noobayogesh_bot`**)  
-- Copy the **HTTP API Token** provided — this is your `BOT_TOKEN`.
+- Go to [@BotFather](https://t.me/BotFather)
+- Run `/start` → `/newbot`
+- Set a name and username (e.g., `noobayogesh_bot`)
+- Copy the **API Token** — this is your `BOT_TOKEN`
 
 ### 2. 📢 Create a Private Channel
 
-- Open Telegram and tap **New Channel**
-- Set a name (e.g., **NoobaStoreChannel**)
-- Make sure it is **private**
-- Add **your bot** (`@noobayogesh_bot`) as an **admin**
-  - Enable: `Post Messages` permission
+- Open Telegram → Create a **new channel**
+- Make it **Private**
+- Add your bot (`@noobayogesh_bot`) as **Admin**
+  - Ensure **Post Messages** permission is enabled
 
-#### 🔍 Get Channel ID:
+### 3. 📋 Get the Channel ID
 
-1. Add [@getidsbot](https://t.me/getidsbot) to your channel temporarily
-2. Forward any message from your channel to @getidsbot
-3. It will reply with the **channel ID** like `-1001837916554`
-
-> ✅ Use this **channel ID** in your code (remove `-100` prefix if not required by your bot API method — in most cases it's required).
+1. Add [@getidsbot](https://t.me/getidsbot) to your private channel
+2. Forward any message to @getidsbot
+3. Copy the ID shown (e.g., `-1001837916554`) and set this as `CHANNEL_ID` in your code
 
 ---
 
 ## 🛠️ Run the Bot
 
-1. Clone the repo or copy the Python script
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    pip install python-telegram-bot --upgrade
