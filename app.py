@@ -8,9 +8,9 @@ from telegram.ext import (
 )
 
 # 🔧 Your credentials
-BOT_TOKEN = '6391152265:AAHdLe9t_qhuhyHFM_0B-G6xNAmjBUyQZ3U'
-CHANNEL_ID = '1837916554'  # Your private channel ID (not @username)
-BOT_USERNAME = 'noobayogesh_bot'  # without @
+BOT_TOKEN = 'bottoken'
+CHANNEL_ID = 'channelid'  # Your private channel ID (not @username)
+BOT_USERNAME = 'botname'  # without @
 GROUP_DB_FILE = 'file_groups.json'
 # ================
 
@@ -98,4 +98,5 @@ if __name__ == '__main__':
     ))
 
     print("🤖 Bot is running...")
+
     app.run_polling()
