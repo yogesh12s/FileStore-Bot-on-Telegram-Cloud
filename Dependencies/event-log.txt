@@ -1,0 +1,64 @@
+[25/09/2025 09:22:49][uvicorn][INFO] -> Web server is started!
+[25/09/2025 09:22:49][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[25/09/2025 09:22:49][hydrogram.session.auth][INFO] -> Start creating a new auth key on DC2
+[25/09/2025 09:22:49][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:22:49][hydrogram.connection.connection][INFO] -> Connected! Production DC2 - IPv4
+[25/09/2025 09:22:51][hydrogram.session.auth][INFO] -> Done auth key exchange: DhGenOk
+[25/09/2025 09:22:51][hydrogram.connection.connection][INFO] -> Disconnected
+[25/09/2025 09:22:51][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:22:51][hydrogram.connection.connection][INFO] -> Connected! Production DC2 - IPv4
+[25/09/2025 09:22:51][hydrogram.session.session][INFO] -> NetworkTask started
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> Session initialized: Layer 181
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> Device: CPython 3.12.2 - Hydrogram 0.2.0
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> System: Windows 2022Server (en)
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> Session started
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> PingTask started
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> PingTask stopped
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> NetworkTask stopped
+[25/09/2025 09:22:52][hydrogram.connection.connection][INFO] -> Disconnected
+[25/09/2025 09:22:52][hydrogram.session.session][INFO] -> Session stopped
+[25/09/2025 09:22:52][hydrogram.session.auth][INFO] -> Start creating a new auth key on DC5
+[25/09/2025 09:22:52][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:22:52][hydrogram.connection.connection][INFO] -> Connected! Production DC5 - IPv4
+[25/09/2025 09:22:54][hydrogram.session.auth][INFO] -> Done auth key exchange: DhGenOk
+[25/09/2025 09:22:54][hydrogram.connection.connection][INFO] -> Disconnected
+[25/09/2025 09:22:54][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:22:54][hydrogram.connection.connection][INFO] -> Connected! Production DC5 - IPv4
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> NetworkTask started
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> Session initialized: Layer 181
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> Device: CPython 3.12.2 - Hydrogram 0.2.0
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> System: Windows 2022Server (en)
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> Session started
+[25/09/2025 09:22:54][hydrogram.session.session][INFO] -> PingTask started
+[25/09/2025 09:22:55][hydrogram.client][WARNING] -> [bot] No plugin loaded from "bot/plugins"
+[25/09/2025 09:22:55][hydrogram.dispatcher][INFO] -> Started 12 HandlerTasks
+[25/09/2025 09:31:44][uvicorn][INFO] -> Web server is started!
+[25/09/2025 09:31:44][uvicorn][INFO] -> Server running on 0.0.0.0:8080
+[25/09/2025 09:31:44][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:31:44][hydrogram.connection.connection][INFO] -> Connected! Production DC5 - IPv4
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> NetworkTask started
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> Session initialized: Layer 181
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> Device: CPython 3.12.2 - Hydrogram 0.2.0
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> System: Windows 2022Server (en)
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> Session started
+[25/09/2025 09:31:44][hydrogram.session.session][INFO] -> PingTask started
+[25/09/2025 09:31:44][hydrogram.client][WARNING] -> [bot] No plugin loaded from "bot/plugins"
+[25/09/2025 09:31:44][hydrogram.dispatcher][INFO] -> Started 12 HandlerTasks
+[25/09/2025 09:33:11][uvicorn.access][INFO] -> 2409:40f4:304a:aa:5814:63ff:fe72:91b7:0 - "GET /stream/336?code=c2151c8d184199b1368b2928c900eb1a3f88743ce56b6571 HTTP/1.1" 200
+[25/09/2025 09:33:11][uvicorn.access][INFO] -> 2409:40f4:304a:aa:5814:63ff:fe72:91b7:0 - "GET /favicon.ico HTTP/1.1" 404
+[25/09/2025 09:33:20][uvicorn.access][INFO] -> 2409:40f4:304a:aa:5814:63ff:fe72:91b7:0 - "GET /stream/336?code=c2151c8d184199b1368b2928c900eb1a3f88743ce56b6571 HTTP/1.1" 200
+[25/09/2025 09:33:21][uvicorn.access][INFO] -> 2409:40f4:304a:aa:5814:63ff:fe72:91b7:0 - "GET /stream/336?code=c2151c8d184199b1368b2928c900eb1a3f88743ce56b6571 HTTP/1.1" 200
+[25/09/2025 09:33:22][uvicorn.access][INFO] -> 2409:40f4:304a:aa:5814:63ff:fe72:91b7:0 - "GET /dl/336?code=c2151c8d184199b1368b2928c900eb1a3f88743ce56b6571 HTTP/1.1" 206
+[25/09/2025 09:33:22][hydrogram.session.auth][INFO] -> Start creating a new auth key on DC4
+[25/09/2025 09:33:22][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:33:22][hydrogram.connection.connection][INFO] -> Connected! Production DC4 - IPv4
+[25/09/2025 09:33:24][hydrogram.session.auth][INFO] -> Done auth key exchange: DhGenOk
+[25/09/2025 09:33:24][hydrogram.connection.connection][INFO] -> Disconnected
+[25/09/2025 09:33:24][hydrogram.connection.connection][INFO] -> Connecting...
+[25/09/2025 09:33:24][hydrogram.connection.connection][INFO] -> Connected! Production DC4 (media) - IPv4
+[25/09/2025 09:33:24][hydrogram.session.session][INFO] -> NetworkTask started
+[25/09/2025 09:33:25][hydrogram.session.session][INFO] -> Session initialized: Layer 181
+[25/09/2025 09:33:25][hydrogram.session.session][INFO] -> Device: CPython 3.12.2 - Hydrogram 0.2.0
+[25/09/2025 09:33:25][hydrogram.session.session][INFO] -> System: Windows 2022Server (en)
+[25/09/2025 09:33:25][hydrogram.session.session][INFO] -> Session started
+[25/09/2025 09:33:25][hydrogram.session.session][INFO] -> PingTask started
